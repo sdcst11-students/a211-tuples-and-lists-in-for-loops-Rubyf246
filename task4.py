@@ -8,3 +8,7 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+num=int(input("Give me a number"))
+for i in people:
+    if i ==people[num]:
+        print (i)
